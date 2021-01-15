@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    display: flex;
+    align-content: center;
+    flex-direction: column;  
+    font-family: "Roboto", sans-serif;  
+    padding: 20px;
+    min-width: 350px;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .main-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    /* border: solid 2px #72bab9;
+    border-radius: 55px; */
+    padding: 0 40px 20px 40px;
+  }
+  
+  h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
