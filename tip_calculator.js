@@ -11,12 +11,24 @@
 // } else {
 //   greeting = "Welcome";
 // }
-// document.write(greeting + "! Are all the hangrys gone?");
-
-let billAmount = 50
-
-let tip = billAmount 
+// document.write(greeting + "!);
 
 
-console.log(billAmount);
-console.log(tip);
+let billAmount = document.getElementById("billAmount").value
+let tipInput = document.getElementById("tipInput").value
+
+// let billAmount = 50
+
+function calculatedTip () {
+    console.log(billAmount * tipInput)
+}
+
+
+
+
+// console.log(billAmount);
+// console.log(excellentTip);
+// console.log(goodTip);
+// console.log(fairTip);
+// console.log(poorTip);
+
