@@ -18,7 +18,7 @@
         <div>
             <form>
                 Bill Amount: <br>
-                <input onkeydown="" placeholder="$0.00" type="number" id="billAmount" name="billAmount" />
+                <input type="text" placeholder="$0.00" id="billInput">
             </form>
             <br />
         </div>
@@ -26,21 +26,22 @@
         <label for="service?">How was your service?</label>
         <div class="service-dropdown">
             <select id="tipInput">
-                <option value="1.25">Excellent (25%)</option>
-                <option value="1.20">Good (20%)</option>
-                <option value="1.10">Fair (10%)</option>
-                <option value="1.05">Poor (5%)</option>
+                <option>Select from below</option>
+                <option value=".25">Excellent (25%)</option>
+                <option value=".20">Good (20%)</option>
+                <option value=".10">Fair (10%)</option>
+                <option value=".05">Poor (5%)</option>
             </select><br />
         </div>
         <br>
 
         <div class="display">
-            <div data-tip-outputclass="tip-output">Tip: </div>
+            <div class="tip-output">Tip: </div>
             <br>
             <div data-total-bill class="total-bill">Total Bill:</div>
         </div>
 
-        <button onkeypress="calculatedTip()">Calculate</button>
+        <button id="calculate">Calculate</button>
 
         <script src="tip_calculator.js"></script>
 </body>
