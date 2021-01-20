@@ -66,7 +66,7 @@ function getTotalBill() {
     const calculatedBill = parseFloat(billAmount) + parseFloat(tipAmount)
     
     if (tipSelectElement.selectedIndex === 0) {
-        alert("Select your service.")
+        alert("⚠️ Select your service required.")
         return
         
     }

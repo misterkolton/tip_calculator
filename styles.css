@@ -5,9 +5,11 @@ body {
     flex-direction: column;  
     font-family: "Roboto", sans-serif;  
     padding: 20px;
-    min-width: 350px;
+    min-width: 290px;
     align-items: center;
+    background: #333333;   
     height: 100vh;
+
   }
   
   .main-container {
@@ -16,17 +18,79 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    width: 300px;
+    width: 250px;
     font-family: "Roboto", sans-serif;
-    /* border: solid 2px #72bab9;
-    border-radius: 55px; */
-    padding: 0 40px 20px 40px;
+    background: linear-gradient(rgb(255, 86, 137), rgb(230, 135, 255));
+    border-radius: 15px;
+    
+    padding: 0 40px 20px 40px;  
+    
+    
+  }
+ 
+
+  input {
+    border: solid 1px whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: black;
+    opacity: 60%;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+  }
+  input:hover {
+    background-color: black;
+    opacity: 100%;
+    color: whitesmoke;
+  }
+
+  select {
+    border: solid 1px whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: black;
+    opacity: 60%;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    
+
+  }
+
+  select:hover {
+    background-color: black;
+    opacity: 100%;
+    color: whitesmoke;
+  }
+
+  button {
+    border: solid 1px whitesmoke;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    background-color: black;
+    opacity: 60%;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+  }
+
+  button:hover {
+    background-color: lightblue;
+    opacity: 100%;
+    color: whitesmoke;
   }
   
   h1 {
     align-items: center;
     display: flex;
     justify-content: center;
+    font-family: 'Lobster', cursive;
+  }
+
+  .total-bill {
+    font: 30px
   }
 
  .service-dropdown {
